@@ -25,7 +25,7 @@ SECRET_KEY = 'h5z_qozzeljf5pp8#$b$%22tu*#&eimy8_ytd@ripa)$=wls7h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['selvinblog.herokuapp.com']
 
 
 # Application definition
