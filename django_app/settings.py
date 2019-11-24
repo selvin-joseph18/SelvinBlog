@@ -29,7 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['selvinblog.herokuapp.com']
 
-django_heroku.settings(locals())
 # Application definition
 
 INSTALLED_APPS = [
@@ -133,3 +132,4 @@ LOGIN_REDIRECT_URL='blog-home'
 
 LOGIN_URL='login'
 
+django_heroku.settings(locals())
